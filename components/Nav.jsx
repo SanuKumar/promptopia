@@ -54,7 +54,8 @@ const Nav = () => {
           </div>
         ) : (
           <>
-            {providers &&
+            {providers ? (
+              providers &&
               Object.values(providers).map((provider) => (
                 <button
                   type="button"
@@ -64,7 +65,10 @@ const Nav = () => {
                 >
                   Sign In
                 </button>
-              ))}
+              ))
+            ) : (
+              <span>Loading...!!</span>
+            )}
           </>
         )}
       </div>
@@ -112,7 +116,8 @@ const Nav = () => {
           </div>
         ) : (
           <>
-            {providers &&
+            {providers ? (
+              providers &&
               Object.values(providers).map((provider) => (
                 <button
                   type="button"
@@ -122,7 +127,10 @@ const Nav = () => {
                 >
                   Sign In
                 </button>
-              ))}
+              ))
+            ) : (
+              <span>Loading...!!</span>
+            )}
           </>
         )}
       </div>

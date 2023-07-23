@@ -13,7 +13,7 @@ const UserSchema = new Schema({
   },
   image: {
     type: String
-  }
+  },
 })
 
 // it is called every single time when the connection is established
