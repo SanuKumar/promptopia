@@ -4,7 +4,7 @@ import Prompt from "@models/prompt"
 export const POST = async (req) => {
   const { userId, prompt, tag } = await req.json()
 
-
+  console.log(userId, prompt, tag )
   try {
     await connectToDB() //Lambda function - it dies once the job is done.
     const newPrompt = new Prompt({
