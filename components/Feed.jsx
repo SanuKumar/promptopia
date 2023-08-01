@@ -24,6 +24,8 @@ const Feed = () => {
 
   const handleSearchChange = (e) => {};
 
+  const handleTagClick = () => {};
+
   useEffect(() => {
     const fetchPost = async () => {
       const response = await fetch('/api/prompt');
@@ -48,7 +50,7 @@ const Feed = () => {
         />
       </form>
 
-      <PromptCardList data={posts} handleTagClick={() => {}} />
+      <PromptCardList data={posts} handleTagClick={handleTagClick} />
     </section>
   );
 };
