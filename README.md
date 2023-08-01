@@ -32,3 +32,12 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Google cloud
+https://console.cloud.google.com/apis/credentials/oauthclient/1038429553155-d7grn13fag0t04dbu2sit6q5d6nlu88e.apps.googleusercontent.com?project=promptopia-391903
+
+## Database
+https://cloud.mongodb.com/v2/64a61f1b7af0306c65e4cd49#/clusters
+
+## App Url
+https://promptopia-five-ecru.vercel.app/
